@@ -21,3 +21,17 @@ Viewing the coverage profile
 ```
 go tool cover -html=coverage.out
 ```
+
+## Go Vulnerabilities 
+
+Command-line tool that helps Go users find known vulnerabilities in their project dependencies. The tool can analyze both codebases and binaries, and it reduces noise by prioritizing vulnerabilities in functions that your code is actually calling.
+
+You can install the latest version of govulncheck with this command
+```
+go install golang.org/x/vuln/cmd/govulncheck@latest
+```
+
+Run govulncheck inside your module
+```
+govulncheck ./...
+```
