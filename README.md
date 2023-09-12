@@ -21,6 +21,10 @@ Viewing the coverage profile
 ```
 go tool cover -html=coverage.out
 ```
+Viewing coverage within VSC by running this command in the command palette
+```
+Go: Toggle Test Coverage In Current Package
+```
 
 ## Go Vulnerabilities 
 
